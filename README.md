@@ -1,6 +1,6 @@
 ディレクトリ構成
 
-/
+/  
 ├── public/  
 │   └── index.html　など  
 ├── src/  
