@@ -1,21 +1,36 @@
 ディレクトリ構成
+
 /
+
 ├── public/
-│   └── index.html
+
+│   └── index.html　など
+
 ├── src/
+
 │   ├── components/
-│   │   └── ScheduleSelectorUI.jsx     ← カスタムUIに分離したい場合
+
+│   │   └── 部品
+
 │   ├── pages/
-│   │   ├── HomePage.jsx               ← ホーム（スケジュール作成）
-│   │   └── SchedulePage.jsx           ← 参加・入力ページ（/s/:scheduleId）
+
+
+│   │   └── ページの骨組み
+
 │   ├── utils/
-│   │   └── firebase.js                ← Firebaseの初期化＆共有
-│   ├── App.jsx                        ← React Routerのルーティング設定
-│   ├── index.js                       ← エントリーポイント
+
+│   │   └── Firebaseの設定など
+
+│   ├── App.jsx
+
+│   ├── index.js
+
 │   └── styles/
-│       └── schedule.css               ← スケジュール選択画面用CSS
-├── .env                               ← Firebase Config（REACT_APP_ から始める）
+
+│       └── css
+
 ├── package.json
+
 └── README.md
 
 
