@@ -1,0 +1,71 @@
+.schedule-page {
+    padding: 1rem;
+    font-family: sans-serif;
+  }
+  
+  .schedule-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    background: #f9f9f9;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+  
+  .header-main {
+    flex-grow: 1;
+  }
+  
+  .schedule-title {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  .creator {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .description-toggle {
+    font-size: 1.2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .description-popup {
+    position: absolute;
+    top: 110%;
+    right: 1rem;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+    border-radius: 6px;
+    width: 80%;
+    max-width: 300px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+  }
+  
+  .view-switcher {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .view-switcher button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background: #eee;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .view-switcher button.active {
+    background: #007bff;
+    color: white;
+  }
+  

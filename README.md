@@ -1,3 +1,27 @@
+ディレクトリ構成
+/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   └── ScheduleSelectorUI.jsx     ← カスタムUIに分離したい場合
+│   ├── pages/
+│   │   ├── HomePage.jsx               ← ホーム（スケジュール作成）
+│   │   └── SchedulePage.jsx           ← 参加・入力ページ（/s/:scheduleId）
+│   ├── utils/
+│   │   └── firebase.js                ← Firebaseの初期化＆共有
+│   ├── App.jsx                        ← React Routerのルーティング設定
+│   ├── index.js                       ← エントリーポイント
+│   └── styles/
+│       └── schedule.css               ← スケジュール選択画面用CSS
+├── .env                               ← Firebase Config（REACT_APP_ から始める）
+├── package.json
+└── README.md
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
